@@ -11,7 +11,7 @@ while com.lower() != "quit":
         stop - to stop the car 
         quit - to quit""")
     else:
-        print("command invalid")          
+        print("command invalid")         
 
 
 
