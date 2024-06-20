@@ -3,4 +3,6 @@ matrix = [
     [4,5,6],
     [7,8,9]
 ]
-print(matrix[0][1])
+for row in matrix:
+    for i in row:
+        print(i)
