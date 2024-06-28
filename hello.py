@@ -1,9 +1,3 @@
-base = 2 
-exp = 4 
-res = 1 
-current_exp = 0
-while current_exp < exp:
-    res *= base 
-    current_exp += 1
+from ecommerce.shipping import calc_shipping
 
-print(res)
+calc_shipping()
